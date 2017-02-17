@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_address"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context="neha.com.allinonefinder.Address">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/activity_hospital"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="match_parent"
+        tools:context="neha.com.findhospitalnearbyyou.Hospital">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_marginTop="10dp"
+            android:text="Enter Your Address"
+            android:layout_marginLeft="17dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_height="wrap_content"
+            android:id="@+id/text2"/>
+        <com.seatgeek.placesautocomplete.PlacesAutocompleteTextView
+            android:id="@+id/places_autocomplete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            app:pacv_googleMapsApiKey="AIzaSyBfewRP4b8F6Tonp5vnYxQ8xPOnYI5fEnE"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/text"/>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:onClick="search"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#fff"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#fff"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <EditText xmlns:android="http://schemas.android.com/apk/res/android"
+        android:label="@string/app_name"
+        android:hint="Search Here"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:paddingLeft="20dp"
+        android:id="@+id/edt"
+        android:textColorHint="#5c5555"
+        android:textColor="#000"
+        android:drawableLeft="@drawable/search"
+        android:drawablePadding="15dp"
+        android:background="@drawable/bgg"
+
+        android:layout_width="fill_parent">
+    </EditText>
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/gridlist"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:numColumns="2"
+        android:padding="10dp"
+        android:horizontalSpacing="15dp"
+    android:verticalSpacing="15dp"
+        android:background="#fff"
+        android:scrollbarStyle="outsideOverlay"
+        android:verticalScrollbarPosition="right"
+        android:scrollbars="vertical">
+    </GridView>
+    </LinearLayout>
+

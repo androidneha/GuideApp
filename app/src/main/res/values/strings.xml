@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Guide</string>
+    <string name="title_activity_first_screen">Welcome</string>
+    <string name="title_activity_list_view_item">List</string>
+</resources>
